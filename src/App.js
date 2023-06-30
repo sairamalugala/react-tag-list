@@ -58,6 +58,10 @@ export default function App() {
   };
   return (
     <div className="App">
+     <div style={{ marginBottom: 20 }}>
+        <h2>Create tags here.</h2>
+        <label>press enter to create a tag</label>
+      </div>
       <div className="taglist">
         <TagList
           tags={tags}
